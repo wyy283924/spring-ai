@@ -1,0 +1,92 @@
+[
+  {
+    "id": "14588485-757e-4a66-82f5-9f17d9757e86",
+    "text": "Q：什么是API-KEY？",
+    "media": null,
+    "metadata": {
+      "charset": "UTF-8",
+      "chunk_index": 0,
+      "article_type": "blog",
+      "author": "wyy",
+      "parent_document_id": "1a286640-f085-47b0-a839-b49d4de1c1bf",
+      "source": "qa.txt",
+      "total_chunks": 6
+    },
+    "score": null
+  },
+  {
+    "id": "a831c4bd-de84-4e0a-ad83-600ba2d0c16e",
+    "text": "A：DashScope灵积模型服务通过API-KEY进行调用鉴权和计量计费，目前支持主账号进行API-KEY的管理。",
+    "media": null,
+    "metadata": {
+      "charset": "UTF-8",
+      "chunk_index": 1,
+      "article_type": "blog",
+      "author": "wyy",
+      "parent_document_id": "1a286640-f085-47b0-a839-b49d4de1c1bf",
+      "source": "qa.txt",
+      "total_chunks": 6
+    },
+    "score": null
+  },
+  {
+    "id": "5cfdd3dc-09b4-4335-870f-0c0dbb2fb741",
+    "text": "Q：API-KEY的上限个数是多少？",
+    "media": null,
+    "metadata": {
+      "charset": "UTF-8",
+      "chunk_index": 2,
+      "article_type": "blog",
+      "author": "wyy",
+      "parent_document_id": "1a286640-f085-47b0-a839-b49d4de1c1bf",
+      "source": "qa.txt",
+      "total_chunks": 6
+    },
+    "score": null
+  },
+  {
+    "id": "dd3c35f9-1c6c-418a-9381-4de43920af6b",
+    "text": "A：当前每个主账号可以同时有3个生效的API-KEY。",
+    "media": null,
+    "metadata": {
+      "charset": "UTF-8",
+      "chunk_index": 3,
+      "article_type": "blog",
+      "author": "wyy",
+      "parent_document_id": "1a286640-f085-47b0-a839-b49d4de1c1bf",
+      "source": "qa.txt",
+      "total_chunks": 6
+    },
+    "score": null
+  },
+  {
+    "id": "141b0576-19ed-4014-9499-feafd8e148fd",
+    "text": "Q：API-KEY被删除会有什么影响？",
+    "media": null,
+    "metadata": {
+      "charset": "UTF-8",
+      "chunk_index": 4,
+      "article_type": "blog",
+      "author": "wyy",
+      "parent_document_id": "1a286640-f085-47b0-a839-b49d4de1c1bf",
+      "source": "qa.txt",
+      "total_chunks": 6
+    },
+    "score": null
+  },
+  {
+    "id": "55a517f6-bbfd-427e-a2d5-4105a05895b7",
+    "text": "A：目前支持主账号对API-KEY的删除，子账号无法进行操作。删除的API-KEY无法找回也无法使用，但您在调用统计页面仍能查询被删除的API-KEY以往的调用统计结果。",
+    "media": null,
+    "metadata": {
+      "charset": "UTF-8",
+      "chunk_index": 5,
+      "article_type": "blog",
+      "author": "wyy",
+      "parent_document_id": "1a286640-f085-47b0-a839-b49d4de1c1bf",
+      "source": "qa.txt",
+      "total_chunks": 6
+    },
+    "score": null
+  }
+]

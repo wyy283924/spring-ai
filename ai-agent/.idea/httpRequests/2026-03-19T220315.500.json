@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-03-19T14:03:15.306+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/sse"
+}

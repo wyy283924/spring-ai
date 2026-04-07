@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/my_db?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true&allowPublicKeyRetrieval=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      #      base-url: https://api.deepseek.com   # 如果使用DeepSeek则设置这个base-url
+      api-key: ${BL_API_KEY}
+      chat:
+        options:
+          model: qwen3-max
+      embedding:
+        options:
+          model: text-embedding-v3
+    chat:
+      memory:
+        repository:
+          jdbc:
+            initialize-schema: always
+    vectors tore:
+      elasticsearch:
+        initialize-schema: true
+        index-name: spring-ai-demo-index
+        dimensions: 1024
+        similarity: cosine
+  elasticsearch:
+    uris: 127.0.0.1:9200
+    username: elastic
+    password: mFh071IeXXB4cVIJLixl
+
+server:
+  port: 8081

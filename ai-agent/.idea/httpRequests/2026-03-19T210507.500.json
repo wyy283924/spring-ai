@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-03-19T13:05:07.843+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/ai"
+}
